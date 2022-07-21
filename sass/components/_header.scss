@@ -1,0 +1,13 @@
+.header{
+   background-color: gray;
+}
+.main-nav__link, .tel{
+      font-weight: 600;
+      font-size: 12px;
+      line-height: 1.33;
+      letter-spacing: 0.1em;
+      color: $white;
+      &:hover, &:focus{
+         color: $acent;
+      }
+}

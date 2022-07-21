@@ -34,4 +34,42 @@
   list-style: none;
   padding: 0;
   margin: 0;
+}
+
+.link {
+  text-decoration: none;
+}
+
+.button {
+  height: 40px;
+  border: 1px solid #FF6C00;
+  border-radius: 25px;
+  background-color: rgba(0, 0, 0, 0);
+  font-family: inherit;
+  font-weight: 600;
+  font-size: 12px;
+  line-height: 1.33;
+  letter-spacing: 0.09em;
+  text-transform: uppercase;
+}
+.button--white {
+  color: #ffffff;
+}
+.button--black {
+  color: #303030;
+}
+
+.header {
+  background-color: gray;
+}
+
+.main-nav__link, .tel {
+  font-weight: 600;
+  font-size: 12px;
+  line-height: 1.33;
+  letter-spacing: 0.1em;
+  color: #ffffff;
+}
+.main-nav__link:hover, .main-nav__link:focus, .tel:hover, .tel:focus {
+  color: #FF6C00;
 }/*# sourceMappingURL=main.css.map */
