@@ -1,0 +1,15 @@
+.masters__li-title{
+   font-weight: 400;
+      font-size: 18px;
+      line-height: calc(25/18); 
+      text-align: center;
+      letter-spacing: 0.02em;
+   color: $tite-text-color;
+}
+.masters__li-subtitle{
+   font-size: 14px;
+   line-height: calc(19/14);
+   text-align: center;
+   letter-spacing: 0.02em;
+   color: $acent;
+}

@@ -24,9 +24,11 @@
           </a>
           <ul class="list-style">
             <li><a href="#about" class="link main-nav__link">Про нас</a></li>
-            <li><a href="" class="link main-nav__link">Послуги та ціни</a></li>
-            <li><a href="" class="link main-nav__link">Майстри</a></li>
-            <li><a href="" class="link main-nav__link">Контакти</a></li>
+            <li>
+              <a href="#prices" class="link main-nav__link">Послуги та ціни</a>
+            </li>
+            <li><a href="#masters" class="link main-nav__link">Майстри</a></li>
+            <li><a href="contacts" class="link main-nav__link">Контакти</a></li>
           </ul>
         </nav>
         <a href="tel:+380441111111" class="link tel">+38 044 111 11 11</a>
@@ -103,7 +105,7 @@
           </button>
         </div>
       </section>
-      <section class="prices">
+      <section id="prices" class="prices">
         <div class="container">
           <p class="section-name prices__section-name">
             Проведи час в компанії кращих майстрів
@@ -178,20 +180,21 @@
           </p>
         </div>
       </section>
-      <section>
+      <section id="masters" class="masters">
         <div class="container">
-          <p>для справжніх поціновувачів атмосфери</p>
-          <h2>Наші майстри</h2>
-          <ul class="list-style">
-            <li>
+          <p class="section-name">для справжніх поціновувачів атмосфери</p>
+          <h2 class="title masters__title">Наші майстри</h2>
+          <ul class="list-style masters__ul">
+            <li class="masters__li">
               <img
                 src="./images/rastr/masters-img-1.jpg"
                 alt="Барбер стриже клієнта"
                 width="370"
                 height="346"
+                class="masters__img"
               />
-              <h3>John Smith</h3>
-              <p>Extreme Barber</p>
+              <h3 class="masters__li-title">John Smith</h3>
+              <p class="masters__li-subtitle">Extreme Barber</p>
             </li>
             <li>
               <img
@@ -199,9 +202,10 @@
                 alt="Барбер стриже клієнта"
                 width="370"
                 height="346"
+                class="masters__img"
               />
-              <h3>Michele Doe</h3>
-              <p>Extreme Barber</p>
+              <h3 class="masters__li-title">Michele Doe</h3>
+              <p class="masters__li-subtitle">Extreme Barber</p>
             </li>
             <li>
               <img
@@ -209,17 +213,18 @@
                 alt="Барбер стриже клієнта"
                 width="370"
                 height="346"
+                class="masters__img"
               />
-              <h3>Alan Black</h3>
-              <p>Extreme Barber</p>
+              <h3 class="masters__li-title">Alan Black</h3>
+              <p class="masters__li-subtitle">Extreme Barber</p>
             </li>
           </ul>
         </div>
       </section>
-      <section>
+      <section class="gallery">
         <div class="container">
-          <p>Латинською мовою "барба" означає "борода"</p>
-          <h2>Галерея</h2>
+          <p class="section-name">Латинською мовою "барба" означає "борода"</p>
+          <h2 class="visually-hidden">Галерея</h2>
           <ul class="list-style">
             <li>
               <img
@@ -256,45 +261,50 @@
           </ul>
         </div>
       </section>
-      <section>
+      <section class="online">
         <div class="container">
-          <h2>Онлайн-запис</h2>
+          <h2 class="title online__title">Онлайн-запис</h2>
         </div>
       </section>
-      <section>
+      <section class="contacts">
         <div class="container">
-          <h2>Контакти</h2>
-          <address>
-            <ul class="list-style">
-              <li>
+          <h2 class="title contacts__title">Контакти</h2>
+          <address class="contacts__address">
+            <ul class="list-style contacts__ul">
+              <li class="contacts__li">
                 <a
                   href="https://goo.gl/maps/rD4W85gcTzuuj1jJ8"
                   target="_blank"
                   rel="noopener nofollow noreferrer"
+                  class="link contacts__link"
                   >вул. Васильківська, 7А Київ, 08132</a
                 >
               </li>
-              <li>
-                <a href="tell:+380441111111">+38 044 111 11 11</a>
+              <li class="contacts__li">
+                <a href="tell:+380441111111" class="link contacts__link"
+                  >+38 044 111 11 11</a
+                >
               </li>
-              <li>
-                <a href="mailto:barbershop@email.com">barbershop@email.com</a>
+              <li class="contacts__li">
+                <a href="mailto:barbershop@email.com" class="contacts__link"
+                  >barbershop@email.com</a
+                >
               </li>
             </ul>
           </address>
-          <p>графік роботи</p>
-          <p>Щоденно з 9:00 до 22:00</p>
+          <p class="contacts__subtitle">графік роботи</p>
+          <p class="contacts__time">Щоденно з 9:00 до 22:00</p>
         </div>
       </section>
     </main>
-    <footer>
+    <footer class="footer">
       <div class="container">
-        <p>&copy;Copyright 2020</p>
+        <p class="footer__copy">&copy;Copyright 2020</p>
         <ul class="list-style">
           <li>
             <a
               href=""
-              class="link"
+              class="link footer__link"
               target="_blank"
               rel="noopener nofollow noreferrer"
               >Youtube</a
@@ -303,7 +313,7 @@
           <li>
             <a
               href=""
-              class="link"
+              class="link footer__link"
               target="_blank"
               rel="noopener nofollow noreferrer"
               >Instagram</a
