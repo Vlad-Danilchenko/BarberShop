@@ -160,4 +160,21 @@
   line-height: 1.67;
   letter-spacing: 0.02em;
   color: #9DA4BD;
+}
+
+.benefits__count {
+  font-weight: 700;
+  font-size: 42px;
+  line-height: 1.36;
+  text-align: center;
+  letter-spacing: 0.05em;
+  color: #303030;
+}
+
+.benefits__li-text {
+  font-weight: 600;
+  font-size: 11px;
+  line-height: 1.36;
+  text-align: center;
+  color: #303030;
 }/*# sourceMappingURL=main.css.map */
