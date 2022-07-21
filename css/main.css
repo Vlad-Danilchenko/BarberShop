@@ -59,6 +59,29 @@
   color: #303030;
 }
 
+.section-name {
+  font-weight: 600;
+  font-size: 11px;
+  line-height: 1.36;
+  letter-spacing: 0.1em;
+  text-transform: uppercase;
+  color: #303030;
+}
+
+.title {
+  font-family: "Raleway", sans-serif;
+  font-size: 42px;
+  line-height: 1.16;
+  letter-spacing: 0.05em;
+  color: #303030;
+}
+
+.subtitle {
+  font-size: 18px;
+  line-height: 1.67;
+  letter-spacing: 0.02em;
+}
+
 .header {
   background-color: gray;
 }
@@ -99,6 +122,7 @@
 }
 
 .hero__title {
+  font-family: "Raleway", sans-serif;
   font-weight: 700;
   font-size: 72px;
   line-height: 1.18;
@@ -107,6 +131,31 @@
 }
 
 .hero__subtitle {
+  font-size: 18px;
+  line-height: 1.67;
+  letter-spacing: 0.02em;
+  color: #9DA4BD;
+}
+
+.about__discription {
+  font-size: 14px;
+  line-height: 1.86;
+  letter-spacing: 0.02em;
+}
+
+.prices {
+  background-color: gray;
+}
+
+.prices__section-name {
+  color: rgba(157, 164, 189, 0.6);
+}
+
+.prices__title {
+  color: #ffffff;
+}
+
+.prices__li-text {
   font-size: 18px;
   line-height: 1.67;
   letter-spacing: 0.02em;
