@@ -11,34 +11,52 @@
       rel="stylesheet"
     />
     <title>BarberShop</title>
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/modern-normalize/1.1.0/modern-normalize.min.css"
+      integrity="sha512-wpPYUAdjBVSE4KJnH1VR1HeZfpl1ub8YT/NKx4PuQ5NmX2tKuGu6U/JRp5y+Y8XG2tV+wKQpNHVUX03MfMFn9Q=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
     <link rel="stylesheet" href="./css/main.min.css" />
   </head>
   <body class="primery-text">
     <header class="header">
-      <div class="container">
+      <div class="container header__container">
         <nav class="main-nav">
-          <a href="" class="link">
-            <svg>
-              <use href="./images/vector/Logo.svg"></use>
-            </svg>
+          <a href="" class="link logo">
+            <img src="./images/vector/logo.svg" alt="" />
+            <!-- <svg class="logo">
+              <use href="./images/vector/logo.svg"></use>
+            </svg> -->
           </a>
-          <ul class="list-style">
-            <li><a href="#about" class="link main-nav__link">Про нас</a></li>
-            <li>
+          <ul class="list-style header__ul">
+            <li class="header__li">
+              <a href="#about" class="link main-nav__link">Про нас</a>
+            </li>
+            <li class="header__li">
               <a href="#prices" class="link main-nav__link">Послуги та ціни</a>
             </li>
-            <li><a href="#masters" class="link main-nav__link">Майстри</a></li>
-            <li><a href="contacts" class="link main-nav__link">Контакти</a></li>
+            <li class="header__li">
+              <a href="#masters" class="link main-nav__link">Майстри</a>
+            </li>
+            <li class="header__li">
+              <a href="contacts" class="link main-nav__link">Контакти</a>
+            </li>
           </ul>
         </nav>
-        <a href="tel:+380441111111" class="link tel">+38 044 111 11 11</a>
-        <button type="button" class="button button--white">онлайн-запис</button>
+        <div class="header__connect">
+          <a href="tel:+380441111111" class="link tel">+38 044 111 11 11</a>
+          <button type="button" class="header__btn button button--white">
+            онлайн-запис
+          </button>
+        </div>
       </div>
     </header>
     <main>
       <section class="hero">
-        <div class="container">
-          <ul class="list-style">
+        <div class="container hero__container">
+          <ul class="list-style hero__ul">
             <li>
               <a
                 href=""
@@ -58,20 +76,22 @@
               >
             </li>
           </ul>
-          <h1 lang="en" class="hero__main-title">
-            A hair salon for men in Kyiv
-          </h1>
-          <h2 lang="en" class="hero__title">BarberShop</h2>
-          <p lang="en" class="hero__subtitle">
-            Ми експерти в модних чоловічих стрижках. Працюємо швидко, обережно
-            та зі смаком.
-          </p>
+          <div class="hero__content">
+            <h1 lang="en" class="hero__main-title">
+              A hair salon for men in Kyiv
+            </h1>
+            <h2 lang="en" class="hero__title">BarberShop</h2>
+            <p lang="en" class="hero__subtitle">
+              Ми експерти в модних чоловічих стрижках. Працюємо швидко, обережно
+              та зі смаком.
+            </p>
+          </div>
         </div>
       </section>
       <section class="about">
-        <div class="container">
-          <ul class="list-style">
-            <li>
+        <div class="container about__container">
+          <ul class="list-style about__ul">
+            <li class="about__li">
               <img
                 src="./images/rastr/about-us-1.jpg"
                 alt="барбер бриє шию"
@@ -79,7 +99,7 @@
                 height="445"
               />
             </li>
-            <li>
+            <li class="about__li">
               <img
                 src="./images/rastr/about-us-2.jpg"
                 alt="барбер бриє затилок"
@@ -88,21 +108,24 @@
               />
             </li>
           </ul>
-          <p class="section-name">Про нас</p>
-          <h2 class="title">Кращий Барбершоп твого міста</h2>
-          <p class="subtitle">
-            Якщо ти хочеш додати до свого образу більше впевненості – тобі точно
-            до нас.
-          </p>
-          <p class="about__discription">
-            Ми команда, яка ніколи не зупиняється на досягнутому та прагне змін.
-            І коли ти потрапиш до рук нашого майстра, то вже ніколи не зможеш
-            бути колишнім. Ми команда, яка завжди з клієнтами "на одній хвилі".
-            Тому, ми завжди готові вдосконалювати кожного, хто до нас приходить!
-          </p>
-          <button type="button" class="button button--black">
-            онлайн-запис
-          </button>
+          <div class="about__content">
+            <p class="section-name">Про нас</p>
+            <h2 class="title">Кращий Барбершоп твого міста</h2>
+            <p class="subtitle">
+              Якщо ти хочеш додати до свого образу більше впевненості – тобі
+              точно до нас.
+            </p>
+            <p class="about__discription">
+              Ми команда, яка ніколи не зупиняється на досягнутому та прагне
+              змін. І коли ти потрапиш до рук нашого майстра, то вже ніколи не
+              зможеш бути колишнім. Ми команда, яка завжди з клієнтами "на одній
+              хвилі". Тому, ми завжди готові вдосконалювати кожного, хто до нас
+              приходить!
+            </p>
+            <button type="button" class="button button--black">
+              онлайн-запис
+            </button>
+          </div>
         </div>
       </section>
       <section id="prices" class="prices">
@@ -111,7 +134,8 @@
             Проведи час в компанії кращих майстрів
           </p>
           <h2 class="title prices__title">Послуги та ціни</h2>
-          <ul class="list-style prices__ul">
+          <div class="prices__wrap">
+            <ul class="list-style prices__ul">
             <li class="prices__li">
               <p class="prices__li-text">Чоловіча стрижка</p>
               <p class="prices__li-text">від 300 грн.</p>
@@ -129,7 +153,7 @@
               <p class="prices__li-text">від 200 грн.</p>
             </li>
           </ul>
-          <ul class="list-style">
+          <ul class="list-style prices__ul">
             <li class="prices__li">
               <p class="prices__li-text">Стрижка у стажера</p>
               <p class="prices__li-text">від 50 грн.</p>
@@ -147,7 +171,9 @@
               <p class="prices__li-text">від 200 грн.</p>
             </li>
           </ul>
-          <button type="button" class="button button--white">
+          </div>
+          
+          <button type="button" class="button button--white prices__btn">
             онлайн-запис
           </button>
         </div>
@@ -225,37 +251,33 @@
         <div class="container">
           <p class="section-name">Латинською мовою "барба" означає "борода"</p>
           <h2 class="visually-hidden">Галерея</h2>
-          <ul class="list-style">
-            <li>
+          <ul class="list-style gallery__ul">
+            <li class="gallery__li">
               <img
                 src="./images/rastr/gallery-img-1.jpg"
-                alt="бфрбер стриже клієнта"
-                width="370"
-                height="346"
+                alt="барбер стриже клієнта"
+                class="gallery__img"
               />
             </li>
-            <li>
+            <li class="gallery__li">
               <img
                 src="./images/rastr/gallery-img-2.jpg"
-                alt="бфрбер стриже клієнта"
-                width="370"
-                height="346"
+                alt="барбер стриже клієнта"
+                class="gallery__img"
               />
             </li>
-            <li>
+            <li class="gallery__li">
               <img
                 src="./images/rastr/gallery-img-3.jpg"
-                alt="бфрбер стриже клієнта"
-                width="370"
-                height="346"
+                alt="барбер стриже клієнта"
+                class="gallery__img"
               />
             </li>
-            <li>
+            <li class="gallery__li">
               <img
                 src="./images/rastr/gallery-img-4.jpg"
-                alt="бфрбер стриже клієнта"
-                width="370"
-                height="346"
+                alt="барбер стриже клієнта"
+                class="gallery__img"
               />
             </li>
           </ul>

@@ -1,16 +1,32 @@
 .prices{
+   padding: 130px 0;
    background-color: gray;
 
 }
 .prices__section-name{
+   margin-top: 20px;
    color: rgba(157, 164, 189, 0.6);;
 }
 .prices__title{
+   margin-bottom: 44px;
    color: $white;
 }
+.prices__ul{
+   padding: 30px 40px;
+}
+.prices__li{
+   
+}
 .prices__li-text{
+   margin-bottom: 20px;
+
    font-size: 18px;
    line-height: 1.67;
    letter-spacing: 0.02em;
    color: $white-text-color;
+}
+.prices__btn{
+   display: block;
+   margin-top: 50px;
+   margin: 0 auto;
 }

@@ -1,5 +1,11 @@
 .hero{
-   background-color: gray;
+   
+}
+.hero__container{
+   display: flex;
+}
+.hero__ul{
+   width: 90px;
 }
 
 .hero__link{
@@ -12,7 +18,14 @@
       color: $acent;
    }
 }
+.hero__content{
+   background-color: gray;
+   flex-grow: 1;
+   padding: 272px 96px 206px 96px;
+}
 .hero__main-title{
+   margin-bottom: 20px;
+
    font-weight: 600;
    font-size: 11px;
    line-height: 1.36;
@@ -21,6 +34,8 @@
    color: rgba(157, 164, 189, 0.6);
 }
 .hero__title {
+   margin-bottom: 20px;
+
    font-family: 'Raleway', sans-serif;
    font-weight: 700;
    font-size: 72px;
